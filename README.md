@@ -1,2 +1,2 @@
 # Messenger
-Hello Messenger
+Real-time Chat application project
