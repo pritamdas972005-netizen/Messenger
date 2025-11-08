@@ -4,7 +4,9 @@ import {
   Route
 }from "react-router-dom";
 import Login from "./components/Login";
-import Registrer from './components/Registrer';
+import Register from './components/Register';
+
+
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/messenger/login" element={<Login/>} />
-        <Route path="/messenger/register" element={<Registrer/>} />
+        <Route path="/messenger/register" element={<Register/>} />
       </Routes>
       </BrowserRouter>
     </div>
